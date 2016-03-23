@@ -1,0 +1,23 @@
+html{
+    background: black;
+    color:lightgrey;
+}
+
+#star-canvas{
+    margin:auto;
+    display:block;
+    width:420px;
+    height: 420px;
+}
+
+#velocity-label, #velocity-range, #velocity-number{
+    display:inline-block;
+}
+
+#velocity-label{
+    text-align: right;
+}
+
+#velocity-control{
+    text-align: center;
+}

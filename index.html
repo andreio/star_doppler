@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script type="text/javascript" src="src/StarView.js"></script>
+    <script type="text/javascript" src="src/StarModel.js"></script>
+    <script type="text/javascript" src="src/VelocityControlsView.js"></script>
+    <link rel="stylesheet" type="text/css"  href="src/app.css">
+</head>
+
+<body>
+    <div id="star">
+        <canvas id="star-canvas"></canvas>
+    </div>
+    <div id="velocity-control">
+        <span id="velocity-label">Velocity:</span>
+        <input id="velocity-number" type="number" min="-100" max="100">
+        <input id="velocity-range" type="range" step="0.01" min="0" max="2">
+    </div>
+</body>
+
+<script type="text/javascript" src="src/App.js"></script>
+
+</html>
