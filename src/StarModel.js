@@ -35,7 +35,7 @@
             rgb = rgbBlock(shiftedImageData.data,0);
             for (i = 0; i < shiftedImageData.data.length; i += 4) {
                 rgb.pixelIndex = i;
-                shiftPercentage = (Math.abs(velocity)/100.0);
+                var shiftPercentage = (Math.abs(velocity)/100.0);
                 if (velocity < 0) {
                     rgb.blue +=  shiftPercentage * (255-rgb.blue);
                     rgb.red -= shiftPercentage * rgb.red;
